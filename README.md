@@ -1,48 +1,37 @@
-# reademe
- **pddel-app** est une application de gestion en ligne pour les événements sportifs. 
-# PDDel-App
-
+# PDD-el-app
 ![GitHub repo size](https://img.shields.io/github/repo-size/nacef88/padelweb)
 
-## Projet de gestion de tournois et réservations
+## 🧰 Présentation du projet
 
-### 🧰 Présentation du projet
+Ce projet a pour objectif de développer une application avec Symfony pour gérer une plateforme de réservation en ligne pour un sport comme le padel.
 
-**PDDel-App** est une application de gestion de tournois sportifs, de réservation de terrains, de gestion de blog, d'utilisateurs et de boutique en ligne. Ce projet a été développé dans le cadre de l'année universitaire 2024-2025 à l'Esprit School of Engineering.
+### Objectifs
+- Développer un système de réservation en ligne pour les utilisateurs.
+- Mettre en place un système d'authentification et de gestion des utilisateurs.
+- Gérer la réservation de créneaux horaires.
+- Créer une interface administrative pour la gestion des utilisateurs et des réservations.
 
-Le projet permet à ses utilisateurs de :
-- Participer à des tournois sportifs.
-- Réserver des terrains de sport.
-- Publier et consulter des articles sur un blog.
-- Gérer un profil utilisateur.
-- Faire des achats dans une boutique en ligne.
+## 🚀 Fonctionnalités
+- **Gestion des utilisateurs** : Inscription, connexion et gestion des profils.
+- **Réservation de créneaux horaires** : Interface pour réserver des créneaux disponibles.
+- **Tableau de bord administratif** : Permet aux administrateurs de gérer les réservations et les utilisateurs.
+- **Notifications par email** : Envoi de notifications aux utilisateurs concernant leurs réservations.
 
-### Objectifs principaux du projet :
-1. Gérer des tournois et des événements sportifs.
-2. Permettre la réservation de terrains de sport.
-3. Offrir une gestion de blog et d'articles.
-4. Créer une section de gestion des utilisateurs.
-5. Mettre en place une boutique en ligne.
+## 📅 Planning du projet
 
-## 🛠️ Technologies utilisées
-- **Symfony** pour le développement du back-end.
-- **Doctrine ORM** pour la gestion de la base de données.
-- **Twig** pour le moteur de templates.
-- **HTML5**, **CSS3** et **JavaScript** pour la partie front-end.
+### Sprint 1 : Développement du Web
+- Développer une application WEB avec Symfony 4 en respectant le modèle MVC.
+- Utiliser `l'ORM Doctrine` dans la couche persistance pour gérer la base de données.
+- Gérer des formulaires avancés avec validation des champs.
+- Intégrer des templates avec `TWIG`.
+- Mettre en place des outils pour le partage sur les réseaux sociaux.
 
-### 🛡️ Contraintes techniques
-- **Base de données unique** partagée pour toutes les fonctionnalités.
-- Utilisation des meilleures pratiques pour organiser le code selon le modèle **MVC**.
-- **Aucune utilisation de bundles externes** pour la gestion des utilisateurs ou des fonctionnalités complexes (par exemple, FOSUser).
+### Sprint 2 : Mobile & Communication
+- Intégration d'une version mobile pour l'application.
+- Assurer la communication entre les clients Java Web et Mobile via une base de données commune.
 
-## Objectifs du Sprint Web
-1. Développer une application web avec Symfony 4 en suivant le modèle **MVC**.
-2. Organiser la couche métier en respectant les principes **Objet (OO)**.
-3. Intégrer les formulaires et leur validation (ex. pour les réservations et les commentaires).
-4. Créer des interfaces dynamiques avec **Twig**.
-5. Intégrer un système de gestion de blog et de publication d'articles.
-6. Ajouter des fonctionnalités de gestion des utilisateurs (création de compte, mise à jour du profil, etc.).
+## 🔧 Installation
 
-## 📅 Répartition des séances
-
-![image](https://user-images.githubusercontent.com/61393700/221413682-1d31d083-0554-4bed-a27d-188c5e534030.png)
+1. **Cloner le dépôt** :
+   ```bash
+   git clone https://github.com/nacef88/padelweb.git
